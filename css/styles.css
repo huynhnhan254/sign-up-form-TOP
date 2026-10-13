@@ -6,10 +6,13 @@ body, header, nav, main, footer, img, h1, h3 {
     border: 0;
 }
 
+body {
+    background-color: black;
+}
+
 #container {
     display: flex;
     margin: 0 10%;
-    background-color: black;
 }
 
 .image {
@@ -19,10 +22,27 @@ body, header, nav, main, footer, img, h1, h3 {
     background-position: center;
 }
 
+.odin-logo {
+    background-image: url(https://raw.githubusercontent.com/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png);
+
+}
+
 .text {
     flex: 2;
-    background-color: antiquewhite;
+    background-color: rgb(192, 191, 189);
+}
+
+.form {
+    background-color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }
 
 
+button {
+    background-color: #596D48;
+}
 
